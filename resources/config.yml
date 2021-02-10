@@ -1,0 +1,34 @@
+Prefix: '&6&lOtomatik Piston &8» '
+Settings:
+  enabled-worlds:
+    - 'world'
+    - 'ASkyBlock'
+Item:
+  name: '&6Otomatik Piston'
+  lore:
+    - '&7Bitkileri Uzar Uzamaz Kesmenize Yardımcı Olur.'
+    - '&r       '
+    - '&7Desteklenen Bitki Türleri:'
+    - '&d- &eKarpuz'
+    - '&d- &eBalkabağı'
+    - '&d- &eBambu'
+    - '&d- &eŞeker Kamışı'
+    - '&d- &eSu Yosunu'
+    - '&r   '
+Info:
+  - '&8&l&m-&f&l&m-&8&l&m-&f&l&m-&8&l&m-&f&l&m-&8&l&m[&6 &lOtomatik Piston &8&l&m]&f&l&m-&8&l&m-&f&l&m-&8&l&m-&f&l&m-&8&l&m-'
+  - '&a/otopiston take &b<Miktar> &f»&eBelirtilen Miktar Kadar Otomatik Piston Alırsınız.'
+  - '&a/otopiston give &b<Oyuncu> <Miktar> &f»&eBelirlenen Oyuncuya Belirtilen Miktar Kadar Otomatik Piston Verir.'
+  - '&a/otopiston reload &f»&eEklentiyi Yeniler'
+Messages:
+  PermError: '&eMaalesef Bunun İçin Yetkin Yok.'
+  Reload: '&eEklenti Başarılı Bir Şekilde Yenilendi.'
+  Console: '&eKonsol Kendine Otomatik Piston Veremez.'
+  GiveError: '&eUsage: &b/otopiston give &c<Oyuncu> &e<Miktar>'
+  TakeError: '&eUsage: &b/otopiston take &b<Miktar>'
+  InventoryIsFull: '&c%player% &eAdlı Oyuncunun Envanteri Dolu Olduğu İçin %piston% &eEnvanterine Eklenemedi.'
+  InventoryFull: '&eEnvanterin Dolu Olduğu İçin %piston% &eEnvanterine Eklenemedi.'
+  Added: '&c%player% &eAdlı Oyuncunun Envanterine &6%amount% Tane %piston% &eEklendi.'
+  Add: '&eEnvanterine &6%amount% Tane %piston% &eEklendi.'
+  Number: '&eLütfen Geçerli Bir Sayı Gir.'
+  WorldError: '&eOtomatik Pistonu Bu Dünyada Kullanamazsın.'
